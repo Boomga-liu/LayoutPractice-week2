@@ -1,0 +1,32 @@
+.works {
+    position: relative;
+    margin-bottom: 180px;
+
+    .works-content {
+        max-width: 1200px;
+        text-align: center;
+        font-style: italic;
+
+        p {
+            line-height: 2em;
+        }
+
+        .works-img {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            color: $text-white;
+        }
+
+    }
+
+    .works-bg {
+        background-image: url(../images/photo-1561291386-5be50364cfb5.png);
+        width: 100%;
+        height: 1558px;
+        position: absolute;
+        top: 280px;
+        left: 0;
+        z-index: -1;
+    }
+}
