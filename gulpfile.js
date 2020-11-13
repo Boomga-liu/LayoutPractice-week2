@@ -32,7 +32,7 @@ function watchFn() {
 }
 
 function deploy() {
-  return gulp.src("./public/**/*").pipe($.ghPages());
+  return gulp.src("./public/**/*").pipe(ghPages());
 }
 
 exports.default = gulp.series(deploy);
