@@ -1,0 +1,137 @@
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.bg-cover {
+  background-position: center center;
+  background-size: cover; }
+
+.fw-500 {
+  font-weight: 500; }
+
+.mb-12 {
+  margin-bottom: 12px; }
+
+.mb-24 {
+  margin-bottom: 24px; }
+
+.mb-32 {
+  margin-bottom: 32px; }
+
+.mb-40 {
+  margin-bottom: 40px; }
+
+.mb-48 {
+  margin-bottom: 48px; }
+
+.mb-56 {
+  margin-bottom: 56px; }
+
+.mb-64 {
+  margin-bottom: 64px; }
+
+.pt-64 {
+  padding-top: 64px; }
+
+.fz-20 {
+  font-size: 20px; }
+
+.fz-24 {
+  font-size: 24px; }
+
+.fz-64 {
+  font-size: 64px; }
+
+.fz-80 {
+  font-size: 80px; }
+
+.m-auto {
+  margin: 0 auto; }
+
+.header {
+  background-image: url(../images/banner.png);
+  width: 100%;
+  height: 960px;
+  display: flex;
+  align-items: center; }
+  .header .header-content {
+    max-width: 315px;
+    color: #fff;
+    font-style: italic; }
+    .header .header-content .header-icon {
+      display: flex;
+      justify-content: space-between; }
+
+.about-content {
+  max-width: 450px;
+  text-align: center;
+  font-style: italic; }
+  .about-content .about-text {
+    font-size: 24px;
+    line-height: 1.7em;
+    font-weight: bold; }
+
+.darkred-circle li {
+  display: inline-block;
+  position: relative; }
+  .darkred-circle li::before {
+    content: '';
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    position: absolute;
+    top: 7px;
+    left: -35px;
+    background-color: #891818; }
+
+hr {
+  margin: 0 auto;
+  width: 90%; }
+
+.brand {
+  background-color: #000;
+  height: 1407px; }
+  .brand .brand-content {
+    max-width: 1200px;
+    color: #fff;
+    text-align: center; }
+    .brand .brand-content h2,
+    .brand .brand-content h3 {
+      font-style: italic; }
+    .brand .brand-content .brand-img {
+      display: flex;
+      justify-content: space-between; }
+
+.works {
+  position: relative;
+  margin-bottom: 180px; }
+  .works .works-content {
+    max-width: 1200px;
+    text-align: center;
+    font-style: italic; }
+    .works .works-content p {
+      line-height: 2em; }
+    .works .works-content .works-img {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      color: #fff; }
+  .works .works-bg {
+    background-image: url(../images/photo-1561291386-5be50364cfb5.png);
+    width: 100%;
+    height: 1558px;
+    position: absolute;
+    top: 280px;
+    left: 0;
+    z-index: -1; }
+
+.footer {
+  height: 317px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  font-style: italic;
+  letter-spacing: 2px; }
+
+/*# sourceMappingURL=all.css.map */
